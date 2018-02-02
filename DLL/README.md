@@ -68,7 +68,7 @@
 + ### DLL 協助資料庫   
 	http://support.microsoft.com/dllhelp/   
 	
-+ ### DLL 開發   
++ # DLL 開發   
 *****
 + ### 類型的 Dll
 + ### DLL 的進入點
