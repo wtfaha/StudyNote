@@ -69,12 +69,13 @@
 	http://support.microsoft.com/dllhelp/   
 	
 + ### DLL 開發   
-+ #### 類型的 Dll
-+ #### DLL 的進入點
-+ #### 匯出 DLL 函式
-+ #### 範例的 DLL 和應用程式
-+ #### .NET Framework 組件
-+ #### 參考
+*****
++ ### 類型的 Dll
++ ### DLL 的進入點
++ ### 匯出 DLL 函式
++ ### 範例的 DLL 和應用程式
++ ### .NET Framework 組件
++ ### 參考
 
 *****
 [DLL是什麼] : https://support.microsoft.com/zh-tw/help/815065/what-is-a-dll
