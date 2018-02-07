@@ -31,3 +31,25 @@
 	[15/Feb/2014:21:51:22] ENGINE Serving on http://127.0.0.1:8080
 	[15/Feb/2014:21:51:23] ENGINE Bus STARTED
 	```
++ ### 運行
+	只要myapp.py定義了一個“__main__”部分，就會運行的很好。
+	```
+	$ python myapp.py
+	```
++ ### cherryd
+	運行應用程序的另一種方法是通過與cherrydCherryPy一起安裝的腳本。
+	```
+	NOTE:
+	如果您將應用程序嵌入到另一個框架中，此實用程序命令將不會涉及到您。
+	```
++ ### Command
+	-c, --config	指定配置文件（s）  
+	-d	作為守護程序運行服務器  
+	-e, --environment	應用給定的配置環境（默認為None）  
+	-f	啟動FastCGI服務器而不是默認的HTTP服務器  
+	-s	啟動一個SCGI服務器，而不是默認的HTTP服務器  
+	-i, --import	指定要導入的模塊  
+	-p, --pidfile	將進程ID存儲在給定的文件中（默認為None）  
+	-P, --Path	將給定的路徑添加到sys.path  
+	
+	
