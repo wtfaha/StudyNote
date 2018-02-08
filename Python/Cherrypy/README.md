@@ -37,7 +37,8 @@
 	PermissionError: [Errno 13] Permission denied: 'C:\\Users\\user\\Anaconda3\\Lib\\site-packages\\win32\\win32api.pyd'
 	```
 	感覺就安裝不成功，但是當我接下來嘗試用easy_install cherrypy或pip install cherrypy再來安裝一次  
-	卻說我已成功安裝，我真的有點母煞煞，不太清楚到底怎麼回事，希望之後能正常使用  
+	卻說我已成功安裝，我真的有點母煞煞，不太清楚到底怎麼回事，希望之後能正常使用 
+	因此我就沒有嘗試透過Github獲取來源代碼來獲得最新的Cherrypy版本的安裝方式
 	
 	2.可以透過Github獲取來源代碼來獲得最新的Cherrypy版本
 	```
@@ -60,6 +61,10 @@
 	[15/Feb/2014:21:51:22] ENGINE Started monitor thread 'Autoreloader'.
 	[15/Feb/2014:21:51:22] ENGINE Serving on http://127.0.0.1:8080
 	[15/Feb/2014:21:51:23] ENGINE Bus STARTED
+	```
+	http://127.0.0.1:8080 則會顯示
+	```
+	Hello World
 	```
 + ### 運行
 	只要myapp.py定義了一個“__main__”部分，就會運行的很好。
