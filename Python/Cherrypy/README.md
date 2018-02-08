@@ -51,7 +51,6 @@
 	```
 	$ python -m cherrypy.tutorial.tut01_helloworld
 	```
-	瀏覽器指向http://127.0.0.1:8080  
 	一旦啟動，上述命令將顯示以下logs  
 	```
 	[15/Feb/2014:21:51:22] ENGINE Listening for SIGHUP.
@@ -62,7 +61,7 @@
 	[15/Feb/2014:21:51:22] ENGINE Serving on http://127.0.0.1:8080
 	[15/Feb/2014:21:51:23] ENGINE Bus STARTED
 	```
-	http://127.0.0.1:8080 則會顯示
+	打開遊覽器 http://127.0.0.1:8080 則會顯示
 	```
 	Hello World
 	```
