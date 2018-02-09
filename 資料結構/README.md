@@ -14,7 +14,7 @@
 	先將非最大的盤子移到輔助的木棒，再將最大盤子移到目的地，再將剩餘的盤子移到目的地
 	```
   	
-	**若盤子為n個 ⇒ 需移動2n-1次**  
+	**若盤子為n個 ⇒ 需移動![equation](http://latex.codecogs.com/gif.latex?2^{n}-1)次**  
 	
 	設計遞迴
 	```
@@ -43,6 +43,8 @@
 		}
   	}
   	```
-
+	
+	
+*****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)	
 
