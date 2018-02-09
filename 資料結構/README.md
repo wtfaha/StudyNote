@@ -170,10 +170,10 @@
 	
 + ### log  
 	log<sub>2</sub>N  
-	ex
 	
-	log<sub>2</sub>32 = 5
-	2<sup>5</sup> = 32
+	ex :  
+	log<sub>2</sub>32 = 5  
+	2<sup>5</sup> = 32  
 	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
