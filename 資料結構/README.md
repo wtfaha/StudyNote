@@ -107,7 +107,60 @@
 	**字串需要一個 ‘\0’ 符號做結尾**，來判斷這個字串已經結束了  
 	![](https://img.noob.tw//2016/11/array2.png)  
 	
++ ### 抽象資料型態 ADT  
+	**只定義數學觀念**，將資料和操作一起思考的觀念。  
+	這種資料型態著重於資料的運算，**並不考慮實作時的細節或資料本身的性質**。
+	
+	ex : 正整數的 ADT
+	```
+	物件定義：正整數是指從零開始一直到 INT_MAX 的有順序整數。
+
+	方法定義：
+		Zero()：即整數 0
+		Equal(x, y)：整數 x 和整數 y 是否相等。
+		Add(x, y)：把整數 x 和整數 y 相加(在不超過 INT_MAX 的情況下)。
+		Sub(x, y)：拿整數 x 減掉整數 y (在不小於零的情況下)。
+	```
+	寫 ADT 時沒有特別的規範，只需要將概念清楚表達出來即可
+
++ ### 結構 Struct  
+	struct 是 C 語言的結構  
+	```
+	struct 結構名稱{
+	    資料型態 變數名稱;
+	};
+	```
+	ex : 定義一個學生的資料  
+	```
+	struct Student{
+	    char name[10];
+	    int age;
+	    int gender;
+	    char studentid[10];
+	    char dept[10];
+	};
+	struct Student Noob; // 宣告一個學生 Noob
+	```
+	typedef 可以用來為資料型態或自訂的結構建立別名  
+	```
+	typedef Student stu;
+	stu Noob;
+	```
+
++ ### 二分搜尋法  
+	類似終極密碼，想要快速的把遊戲玩完，方法就是一直喊中間的數：50、25、38、44、46、48、49、BOOM！  
+	適用於已經由小排到大的數列。  
+	每次都從數列的中間開始搜尋，如果中間這個數大於我們所要找的目標數，那就往左邊找；  
+	反之，再往右邊找。每次都可以把數列砍半，是很有效率的方式  
+	[equation](http://latex.codecogs.com/gif.latex?2^{x}) = N
+	log2([equation](http://latex.codecogs.com/gif.latex?2^{x})) = log2N
+	x * log[equation](http://latex.codecogs.com/gif.latex?2^{2}) = log2N
+	x\*1 = log2N
+	
+	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
 
-[資料結構筆記(二)：陣列、字串與指標](https://noob.tw/data-structure-array)	
+[資料結構筆記(二)：陣列、字串與指標](https://noob.tw/data-structure-array)  
+
+[資料結構筆記(三)：抽象資料結構(ADT)與Struct](https://noob.tw/data-structure-adt)  
