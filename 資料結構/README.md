@@ -99,6 +99,13 @@
 	k+4m = 189
 	解出得 k+5m+3 = 227
 	```
++ ### 字串  
+	C 語言裡面沒有字串，字串其實是由字元陣列組成的
+	```
+	char name[] = "NoobTW";
+	```
+	**字串需要一個 ‘\0’ 符號做結尾**，來判斷這個字串已經結束了  
+	![](https://img.noob.tw//2016/11/array2.png)  
 	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
