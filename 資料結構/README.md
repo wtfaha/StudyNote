@@ -28,7 +28,7 @@
 	```
   	void Towers(int Disk, char Src, char Dest, char Aux)
   	{
-		if( n == 1)
+		if(Disk == 1)
 			System.out.println("移動盤子" + Disk + "由" + Src + "到" + Dest);
 		else
 		{
