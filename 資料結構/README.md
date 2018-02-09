@@ -160,13 +160,20 @@
 	
 	假設有4個數，花2次就可以找到
 	s如果有8個數，花3次就可以找到
-	**所以如果有n個數，只要2<sup>x</sup> > n 就可以找到了**
+	**所以如果有n個數，只要2<sup>x</sup> > n 就可以找到了**  
 	2<sup>x</sup> = N
 	log<sub>2</sub>(2<sup>x</sup>) = log<sub>2</sub>N  
 	x * log<sub>2</sub>2 = log<sub>2</sub>N  
 	x\*1 = log<sub>2</sub>N  
 	
 	最慢的情況下需要花 log<sub>2</sub>N 次才能找到。  
+	
++ ### log  
+	log<sub>2</sub>N  
+	ex
+	
+	log<sub>2</sub>32 = 5
+	2<sup>5</sup> = 32
 	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
