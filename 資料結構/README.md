@@ -152,10 +152,10 @@
 	適用於已經由小排到大的數列。  
 	每次都從數列的中間開始搜尋，如果中間這個數大於我們所要找的目標數，那就往左邊找；  
 	反之，再往右邊找。每次都可以把數列砍半，是很有效率的方式  
-	[equation](http://latex.codecogs.com/gif.latex?2^{x}) = N
-	log2([equation](http://latex.codecogs.com/gif.latex?2^{x})) = log2N
-	x * log[equation](http://latex.codecogs.com/gif.latex?2^{2}) = log2N
-	x\*1 = log2N
+	2<sup>x</sup> = N
+	log<sub>2</sub>(2<sup>x</sup>) = log<sub>2</sub>N
+	x * log<sub>2</sub>2 = log<sub>2</sub>N
+	x\*1 = log<sub>2</sub>N
 	
 	
 *****
