@@ -51,10 +51,11 @@
 	當你宣告一個8格的整數陣列時，其實程式向作業系統要求了 32bytes 的連續空間(通常一個 int 佔 4bytes，八個就佔 32bytes)。  
 	![](https://img.noob.tw//2016/11/array1.png)  
 	(圖中一格為 1byte，記憶體位址以 10 進位表示。)  
-	**&可以用來取得記憶體位址
+	
+	**&可以用來取得記憶體位址  
 	\*可以用來取值**  
 	
-	如果想要取得 arr[0] 的記憶體位址，可以用 &arr[0] 來取得。
+	如果想要取得 arr[0] 的記憶體位址，可以用 &arr[0] 來取得。  
 	```
 	&arr[0] 會得到 1000。  
 	&arr[1] 會得到 1004
@@ -73,5 +74,6 @@
 
 	
 *****
-[河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)	
+[河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
+
 [資料結構筆記(二)：陣列、字串與指標](https://noob.tw/data-structure-array)	
