@@ -158,7 +158,10 @@
 	若最慢的情況下，需要花多少時間呢？  
 	假設我們花了 x 次才找到，也就是說 1 = N/2<sup>x</sup>。  
 	
-	2<sup>x</sup> = N  
+	假設有4個數，花2次就可以找到
+	s如果有8個數，花3次就可以找到
+	**所以如果有n個數，只要2<sup>x</sup> > n 就可以找到了**
+	2<sup>x</sup> = N
 	log<sub>2</sub>(2<sup>x</sup>) = log<sub>2</sub>N  
 	x * log<sub>2</sub>2 = log<sub>2</sub>N  
 	x\*1 = log<sub>2</sub>N  
