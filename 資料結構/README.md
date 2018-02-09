@@ -163,7 +163,7 @@
 	x * log<sub>2</sub>2 = log<sub>2</sub>N  
 	x\*1 = log<sub>2</sub>N  
 	
-	最慢的情況下需要花 log2N 次才能找到。  
+	最慢的情況下需要花 log<sub>2</sub>N 次才能找到。  
 	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
