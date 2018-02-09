@@ -156,13 +156,13 @@
 	最快的情況下，若一次就找到，所需次數是 1。
 	若最慢的情況下，需要花多少時間呢？
 	假設我們花了 x 次才找到，也就是說 1 = N/2<sup>x</sup>。
-	```
+	
 	2<sup>x</sup> = N  
 	log<sub>2</sub>(2<sup>x</sup>) = log<sub>2</sub>N  
 	x * log<sub>2</sub>2 = log<sub>2</sub>N  
 	x\*1 = log<sub>2</sub>N  
-	```
-	最慢的情況下需要花 log2N 次才能找到。
+	
+	最慢的情況下需要花 log2N 次才能找到。  
 	
 *****
 [河內塔](http://notepad.yehyeh.net/Content/DS/CH02/4.php)  
