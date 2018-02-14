@@ -2,8 +2,8 @@
 *****
 
 + ### Join
-	![](https://az787680.vo.msecnd.net/user/caubekimo/1508/2015813152628267.png)  
-	
+	![](https://i.imgur.com/nujcsDf.png)  
+
 	+ inner join  
 		join跟inner join是ㄧ樣，只是inner join表達更加完整  
 		```
@@ -45,4 +45,8 @@
 	```
 *****
 [PostgreSQL 序列使用](https://my.oschina.net/Kenyon/blog/60091)  
+
+[T-SQL 中的 JOIN 語法解析 (for SQL Server)](https://dotblogs.com.tw/caubekimo/2010/07/28/16874)  
+
+[SQL裡頭的各種JOIN(NATURAL JOIN、OUTER JOIN、INNER JOIN)](http://ponshanecode.blogspot.tw/2014/08/sqljoinnatural-joinouter-joininner-join.html)  
 
