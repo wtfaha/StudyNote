@@ -22,9 +22,12 @@
 		直譯式的語言如 Basic, dBASE III 及其他 Script Language 等。  
 		```
 
-	+ Java程式運作的方式是採先編譯後直譯：  
-		一支Java程式首先必須經由Java編譯器編譯成位元碼（Byte Code），  
-		位元碼搭配Java虛擬機器（JVM）便是Java得以跨平台的原因，  
+	+ Java程式運作的方式是 : 
+		採先編譯後直譯  
+		```
+		一支Java程式首先必須經由Java編譯器編譯成位元碼（Byte Code）
+		位元碼搭配Java虛擬機器（JVM）便是Java得以跨平台的原因
+		```
 		```
 		JVM便是直譯器（interpreter）  
 		讓這支Java程式得以在該平台上執行，如此便可不用修改原始碼而直接移到不同的電腦平台上執行。  
