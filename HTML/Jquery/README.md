@@ -25,5 +25,12 @@
 	```
 	$(selector).css("display") != "none"
 	```
++ ### selector
+	
+	+ :eq() : 第幾個  
+		ex : id為name底下的第二個li  
+		```
+		$("#name li:eq(0)")
+		```
 		
 
