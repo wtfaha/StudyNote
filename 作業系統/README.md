@@ -137,5 +137,6 @@
 *****
 [九十三學年度_記憶體管理 參考解答](http://larrymao.myweb.hinet.net/2004fall/sp/exer/sphw06_ans.pdf)  
 
+[作業系統--記憶體管理](http://hen05133.blogspot.tw/2010/01/blog-post_25.html)  
 
 
