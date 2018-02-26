@@ -66,7 +66,7 @@
 		[問題1](https://bbs.mychat.to/sindex.php?t931789.html)  
 		問題2 : 在一擁有 200 個節點之二元樹中最大的可能高度為何？ 
 			199  
-			高度199，表示有200層
+			高度199，表示有200層  
 		[問題2](https://tw.answers.yahoo.com/question/index?qid=20080614000010KK00912) 
 
 *****
