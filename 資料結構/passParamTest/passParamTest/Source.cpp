@@ -64,3 +64,19 @@ int main() {
 	
 	return 0;
 }
+
+/*
+
+pass value
+5 10
+pass address 1
+10 5
+pass address 2
+*c=10 *d=10
+c=2817072 d=2817072
+*c=10 *d=5
+c=2817072 d=2817060
+pass reference
+5 10
+
+*/
