@@ -1,0 +1,7 @@
+﻿  Source.cpp
+e:\wtfahauser\universitycollege\github\studynote\資料結構\passparamtest\passparamtest\source.cpp(51): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+e:\wtfahauser\universitycollege\github\studynote\資料結構\passparamtest\passparamtest\source.cpp(51): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'int *'
+e:\wtfahauser\universitycollege\github\studynote\資料結構\passparamtest\passparamtest\source.cpp(54): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'int *'
+e:\wtfahauser\universitycollege\github\studynote\資料結構\passparamtest\passparamtest\source.cpp(54): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 2 的類型為 'int *'
+  passParamTest.vcxproj -> E:\WtfahaUser\UniversityCollege\github\StudyNote\資料結構\passParamTest\Debug\passParamTest.exe
+  passParamTest.vcxproj -> E:\WtfahaUser\UniversityCollege\github\StudyNote\資料結構\passParamTest\Debug\passParamTest.pdb (Partial PDB)
