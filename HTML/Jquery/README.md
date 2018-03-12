@@ -1,4 +1,7 @@
 # Jquery
+*****
+hide、selector、字串
+*****
 
 + ### hide()
 	基本語法 :   
@@ -32,5 +35,16 @@
 		```
 		$("#name li:eq(0)")
 		```
-		
++ ### 字串  
+	```   
+	'<td width="25%%">
+		<p class="title2"><a href="#" onclick="doEdit(\\\''+response[i].bmac+'\\\')">'+response[i].bmac+'</a></p>
+	</td>'                        
+	```
+	\\\'	\\\'  	參數為字串  
+	'+	+'	取得參數  
+	合併的例子如下 :  
+	```   
+	onclick="doEdit(\\\''+response[i].bmac+'\\\')"                       
+	```
 
