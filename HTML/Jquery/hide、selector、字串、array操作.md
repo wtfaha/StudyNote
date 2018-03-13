@@ -1,6 +1,6 @@
 # Jquery
 *****
-hide、selector、字串
+hide、selector、字串、array操作
 *****
 
 + ### hide()
