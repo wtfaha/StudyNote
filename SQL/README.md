@@ -1,5 +1,7 @@
 # SQL
 *****
+where in 排序、Join、Curral 序列
+*****
 + ### where in 排序  
 	意思就是写where id in (...)的时候按照in里面的顺序来排列结果  
 	[Postgresql where in 排序](http://phaibin.tk/2016/07/13/postgresql-where-in-pai-xu)  
