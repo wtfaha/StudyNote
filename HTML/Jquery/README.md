@@ -2,17 +2,25 @@
 *****
 正規法  
 *****
-+ ### 正規法  
++ ### 基本定義  
   + $ 匹配輸入的結尾  
     ex ： /t$/ 不會匹配「eater」中的 t，卻會匹配「eat」中的 t。  
   + \ 反斜線  
     放在非特殊符號前面，使非特殊符號不會被逐字譯出，代表特殊作用。  
     ex : 「.」原本是有特別定義的，但變成\.csv\則會匹配test.csv中的「.csv」  
-    
     ```
-    var re = /\.(csv|txt)$/i;
-    // 匹配字尾為.csv或.txt結果的字串
+    var re = /\.(csv|txt)$/i;   // 匹配字尾為.csv或.txt結果的字串
     ```
-  
   + .（小數點）匹配除了換行符號之外的單一字元。  
     ex ： /.n/ 匹配「nay, an apple is on the tree」中的 an 和 on，但在「nay」中沒有匹配。  
+
++ ### 一些用法
+  + test
+    對於在一個字符串匹配測試方法。它返回true或false
+    ```
+    var fileValueT = "C:\fakepath\testbin.txt"
+    var fileValueF = "C:\fakepath\testbin.doc"
+    var re = /\.(csv|txt)$/i;         // 匹配字尾為.csv或.txt結果的字串
+    console.log(re.test(fileValueT))  // true
+    console.log(re.test(fileValueF))  // false
+    ```
