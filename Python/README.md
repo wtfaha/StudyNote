@@ -42,8 +42,8 @@
     with open(filename.txt,'r') as fp:
      all_lines = fp.readlines()
     ```
-  + if  
-    ```
+  + readlines  
+18    ```
     ## Open file
     fp = open('filename.txt', "r")
 
