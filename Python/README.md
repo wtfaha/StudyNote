@@ -43,7 +43,7 @@
      all_lines = fp.readlines()
     ```
   + readlines  
-18    ```
+    ```
     ## Open file
     fp = open('filename.txt', "r")
 
