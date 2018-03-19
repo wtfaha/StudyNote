@@ -26,8 +26,11 @@ String.Trim()、#region、NetworkInterface、Path、Directory
 		/*
 		GetDirectoryName('C:\MyDir\MySubDir\myfile.ext') returns 'C:\MyDir\MySubDir'
 		*/
-		```
-+ ### Directory  
+		```  
+	+ GetFullPath
+		
+	
++ ### Directory  
 	+ CreateDirectory(String)  
 		在指定的路徑建立所有目錄和子目錄 (如果這些目錄尚不存在)  
 	+ Exists(String)  
@@ -36,7 +39,11 @@ String.Trim()、#region、NetworkInterface、Path、Directory
 
 *****
 [String.Trim 方法 ()](https://msdn.microsoft.com/zh-tw/library/t97s7bs3(v=vs.80).aspx)  
+
 [C# 裡面的 #region 用法](http://goodlucky.pixnet.net/blog/post/30349716-c%23-%E8%A3%A1%E9%9D%A2%E7%9A%84-%23region-%E7%94%A8%E6%B3%95)  
+
 [NetworkInterface](https://msdn.microsoft.com/en-us/library/system.net.networkinformation.networkinterface(v=vs.110).aspx)  
+
 [Path.GetDirectoryName](https://msdn.microsoft.com/zh-cn/library/system.io.path.getdirectoryname(v=vs.110).aspx)  
+
 [Directory ](https://msdn.microsoft.com/zh-tw/library/system.io.directory(v=vs.110).aspx)  
