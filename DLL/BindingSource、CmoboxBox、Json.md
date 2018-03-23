@@ -2,7 +2,7 @@
 # C#語法
 *****
 BindingSource、CmoboxBox、Json  
-*****  
+*****  
 + ### BindingSource  
   封裝表單的資料來源  
 	+ DataSource  
