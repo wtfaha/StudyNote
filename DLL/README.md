@@ -3,10 +3,14 @@
 *****  
 BindingSource、CmoboxBox、Json  
 *****  
-+ ### BindingSource  
-  封裝表單的資料來源  
-	+ DataSource  
-    		取得或設定此連結器所繫結至的資料來源  
++ ### WndProc  
+  用來接收Windows Message  
+	```
+	protected override void WndProc(ref Message m)
+        {
+            base.WndProc(ref m);
+        }
+	```
 
 *****
-[BindingSource](https://msdn.microsoft.com/zh-tw/library/system.windows.forms.bindingsource(v=vs.110).aspx)  
+[[C#.NET][WinForm] Windows 視窗訊息接收 - WndProc](https://dotblogs.com.tw/yc421206/2011/01/23/20971)  
