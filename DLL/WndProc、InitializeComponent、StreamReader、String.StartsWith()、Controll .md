@@ -1,7 +1,7 @@
 
 # C#語法
 *****  
-WndProc、InitializeComponent、StreamReader  
+WndProc、InitializeComponent、StreamReader、String.StartsWith()、Controll  
 *****  
 + ### WndProc  
   用來接收Windows Message  
