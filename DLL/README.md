@@ -14,6 +14,6 @@ String.Format  
 		D2代表兩位數的小數  
 	+ N、n : number  
 *****
-[String.Format](https://msdn.microsoft.com/zh-tw/library/system.string.format(v=vs.110).aspx)  
+[String.Format](https://msdn.microsoft.com/zh-tw/library/system.string.format(v=vs.110).aspx)  
 [標準數值格式字串](https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings)
 
