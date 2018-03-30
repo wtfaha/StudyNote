@@ -30,7 +30,7 @@ Dictionary  
   + .GetType()  
     取得Type  
     ```
-    // .Name -> 取得這個type的名稱字串  
+    // .Name -> 取得這個type的名稱字串
     string test3 = obj.GetType().Name;
     ```
 
