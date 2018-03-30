@@ -8,7 +8,10 @@ Dictionary  
   + ContainsKey  
 
 + ### LIST & Dictionary  
-  ```
+  obj 明明是List的東西  
+  可是如果寫obj["ptInfo"]就會變成可以使用Dictionary的ContainsKey語法  
+  不知道為何可以這樣oao  
+  ```
   // results = {"RoomList": [{"id": 1, "ptInfo": {"patient": "pt01", "name": "Sandy"}}, {"id": 2, "ptInfo": {"patient": "pt02", "name": "Leo"}}]}
   
   List<dynamic> tmpList = new List<dynamic>(results.RoomList);
