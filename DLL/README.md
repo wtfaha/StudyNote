@@ -25,8 +25,15 @@ Dictionary  
         string patid = obj["ptInfo"].patient;  //Sandy  //Leo
     }
   }
-  ```
-
+  ```  
++ ### Type  
+  + .GetType()  
+    取得Type  
+    + .GetType().Name  
+      取得這個type的名稱  
+    ```
+    string test3 = obj.GetType().Name;
+    ```
 
 
 *****
