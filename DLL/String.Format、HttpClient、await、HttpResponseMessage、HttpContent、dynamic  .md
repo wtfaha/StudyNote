@@ -1,7 +1,7 @@
 
 # C#語法
 *****  
-String.Format、HttpClient、await、HttpResponseMessage  
+String.Format、HttpClient、await、HttpResponseMessage、HttpContent、dynamic  
 *****  
 + ### String.Format  
   根據指定的格式將物件的值轉換為字串，並將它們插入到另一個字串  
@@ -65,9 +65,9 @@ String.Format、HttpClient、await、HttpResponseMessage  
 [String.Format](https://msdn.microsoft.com/zh-tw/library/system.string.format(v=vs.110).aspx)  
 [標準數值格式字串](https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings)  
 [HttpClient 類別](https://msdn.microsoft.com/zh-tw/library/system.net.http.httpclient(v=vs.110).aspx)  
-[await](https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/await)  
-[HttpResponseMessage 類別](https://msdn.microsoft.com/en-us/library/system.net.http.httpresponsemessage(v=vs.118).aspx)  
-[HttpContent 類別](https://msdn.microsoft.com/zh-tw/library/system.net.http.httpcontent(v=vs.118).aspx)  
+[await](https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/await)  
+[HttpResponseMessage 類別](https://msdn.microsoft.com/en-us/library/system.net.http.httpresponsemessage(v=vs.118).aspx)  
+[HttpContent 類別](https://msdn.microsoft.com/zh-tw/library/system.net.http.httpcontent(v=vs.118).aspx)  
 [dynamic](https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/dynamic)  
 
 
