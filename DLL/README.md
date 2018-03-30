@@ -7,10 +7,9 @@ Dictionary  
   表示索引鍵和值的集合  
   + ContainsKey  
 
-+ ### LIST & Dictionary
-  
++ ### LIST & Dictionary  
   ```
-  // results = {"RoomList": [{"id": 1, "ptInfo": {"patient": "pt01", "name": "Sandy"}}, {"id": 2, "ptInfo": {"patient": "pt02", "name": "Leo"}}]}
+  // results = {"RoomList": [{"id": 1, "ptInfo": {"patient": "pt01", "name": "Sandy"}}, {"id": 2, "ptInfo": {"patient": "pt02", "name": "Leo"}}]}
   
   List<dynamic> tmpList = new List<dynamic>(results.RoomList);
   foreach (var obj in tmpList){
@@ -20,10 +19,9 @@ Dictionary  
         // obj["ptInfo"].patient = obj.ptInfo.patient
         // obj["ptInfo"] => Dictionary
         // obj.ptInfo.patient => List
-        string patid = obj["ptInfo"].patient;  //Sandy  //Leo
-    }
+        string patid = obj["ptInfo"].patient;  //Sandy  //Leo
+    }
   }
-  
   ```
 
 
