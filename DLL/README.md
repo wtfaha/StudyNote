@@ -1,7 +1,7 @@
 
 # C#語法
 *****  
-Dictionary  
+Dictionary、LIST & Dictionary、Type  
 *****  
 + ### Dictionary  
   表示索引鍵和值的集合  
