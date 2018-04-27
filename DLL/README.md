@@ -1,10 +1,16 @@
 
 # C#語法
 *****  
-NotifyIcon 類別、Timer 類別  
+找不到「型別或命名空間名稱」錯誤、Timer 類別  
 *****  
-+ ### NotifyIcon 類別  
-  指定在通知區域中建立圖示的元件。 這個類別無法被繼承。  
++ ### 找不到「型別或命名空間名稱」錯誤  
+	今天引用參考時候發生的錯誤，原因竟然就在寫在警告warning訊息中，害我找了好久  
+	原來只是版本問題，把.net version改成4.5就可以了XDD
+	```
+	無法解析主要參考 "Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"，
+	因為它是針對 ".NETFramework,Version=v4.5" Framework 建置的。這個版本高於目前的目標 Framework ".NETFramework,Version=v4.0"。	
+	```
+  	[怪異的「找不到型別或命名空間名稱」錯誤](https://dotblogs.com.tw/johnny/2015/12/10/type_or_namespace_not_found)  
 
 + ### Timer 類別  
 	+ Timer.Interval屬性  
@@ -23,6 +29,5 @@ NotifyIcon 類別、Timer 類別  
 	
 	
 *****
-[NotifyIcon 類別](https://msdn.microsoft.com/zh-tw/library/system.windows.forms.notifyicon(v=vs.110).aspx)  
-[Timer 類別](https://msdn.microsoft.com/zh-tw/library/system.timers.timer(v=vs.110).aspx)
+[怪異的「找不到型別或命名空間名稱」錯誤](https://dotblogs.com.tw/johnny/2015/12/10/type_or_namespace_not_found)  
 
