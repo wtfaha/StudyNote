@@ -4,12 +4,12 @@
 ListView類別  
 *****  
 + ### ListView 類別  	
-	+ View  
+	+ View  
 		1、LargeIcon：每個項都顯示為一個最大化圖標，在它的下面有一個標籤。  
-         	2、SmallIcon：每個項都顯示為一個小圖標，在它的右邊帶一個標籤。  
-         	3、List：每個項都顯示為一個小圖標，在它的右邊帶一個標籤。各項排列在列中，沒有列標頭。  
-         	4、Details：可以顯示任意的列，但只有第一列可以包含一個小圖標和標籤，其它的列項只能顯示文字信息，有列表頭。  
-         	5、Tile：每個項都顯示為一個完整大小的圖標，在它的右邊帶項標籤和子項信息。 （只有Windows XP 和 Windows Server 2003 系列支持）  
+		2、SmallIcon：每個項都顯示為一個小圖標，在它的右邊帶一個標籤。  
+		3、List：每個項都顯示為一個小圖標，在它的右邊帶一個標籤。各項排列在列中，沒有列標頭。  
+		4、Details：可以顯示任意的列，但只有第一列可以包含一個小圖標和標籤，其它的列項只能顯示文字信息，有列表頭。  
+		5、Tile：每個項都顯示為一個完整大小的圖標，在它的右邊帶項標籤和子項信息。 （只有Windows XP 和 Windows Server 2003 系列支持）  
 	+ Clear 方法 ()  
 	```
 	listView1.Clear();		//連標題列都清空
@@ -85,4 +85,5 @@ ListView類別  
 	
 *****
 [ListView 類別](https://msdn.microsoft.com/zh-tw/library/system.windows.forms.listview(v=vs.110).aspx)  
+[ListView 用法詳解](https://blog.csdn.net/chen_zw/article/details/7910324)  
 
