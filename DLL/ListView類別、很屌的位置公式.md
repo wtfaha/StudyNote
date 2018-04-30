@@ -85,12 +85,12 @@ ListView類別、很屌的位置公式  
 	我自己弄得，很屌喔，非常數學，來做個筆記  
 	```
 	// 中間
-	    int picX = (2 * firstX + (labelW + gap) * (global.col)) / 2 - pic_loading.Width / 2;
-            int picY = 2 * firstY + (labelH + gap) * (global.row-1)  + gap + pic_loading.Height;
-            pic_loading.Location = new Point(picX, picY);
+	int picX = (2 * firstX + (labelW + gap) * (global.col)) / 2 - pic_loading.Width / 2;
+	int picY = 2 * firstY + (labelH + gap) * (global.row-1)  + gap + pic_loading.Height;
+	pic_loading.Location = new Point(picX, picY);
 	// 右邊    
-	    int picboxX = (firstX + (labelW + gap) * (global.col) - gap - pictureBox1.Width);
-            pictureBox1.Location = new Point(picboxX, picY);
+	int picboxX = (firstX + (labelW + gap) * (global.col) - gap - pictureBox1.Width);
+	pictureBox1.Location = new Point(picboxX, picY);
 	```
 	
 *****
