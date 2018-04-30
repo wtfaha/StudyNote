@@ -1,7 +1,7 @@
 
 # C#語法
 *****  
-ListView類別  
+ListView類別、很屌的位置公式  
 *****  
 + ### ListView 類別  	
 	+ View  
@@ -81,7 +81,17 @@ ListView類別  
 	// Add the ListView to the control collection.
 	this.Controls.Add(listView1);
 	```
-	
++ ### 很屌的位置公式  
+	我自己弄得，很屌喔，非常數學，來做個筆記  
+	```
+	// 中間
+	    int picX = (2 * firstX + (labelW + gap) * (global.col)) / 2 - pic_loading.Width / 2;
+            int picY = 2 * firstY + (labelH + gap) * (global.row-1)  + gap + pic_loading.Height;
+            pic_loading.Location = new Point(picX, picY);
+	// 右邊    
+	    int picboxX = (firstX + (labelW + gap) * (global.col) - gap - pictureBox1.Width);
+            pictureBox1.Location = new Point(picboxX, picY);
+	```
 	
 *****
 [ListView 類別](https://msdn.microsoft.com/zh-tw/library/system.windows.forms.listview(v=vs.110).aspx)  
