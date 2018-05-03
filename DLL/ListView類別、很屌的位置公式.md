@@ -15,6 +15,10 @@ ListView類別、很屌的位置公式  
 	listView1.Clear();		//連標題列都清空
 	listView1.Items.Clear();	//將ListView中的數據清空
 	```
+	+ Insert
+	```
+	listView1.Items.Insert(0, item1);   //Add the items to the ListView.    // to the top
+	```
 	
 	```
 	// Create a new ListView control.
