@@ -24,3 +24,7 @@ file
       reader.readAsBinaryString(file);
     }
   ```
+
+*****
+[Reading files in JavaScript using the File APIs](https://www.html5rocks.com/en/tutorials/file/dndfiles/)  
+[HTML5 - File API 簡易教學](http://rocksaying.tw/archives/15328315.html)  
